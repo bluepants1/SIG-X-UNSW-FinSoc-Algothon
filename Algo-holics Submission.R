@@ -1,5 +1,6 @@
 library(tidyverse)
 library(caret)
+library(lubridate)
 
 raw_dat <- read.csv(file="SPY Historical Data-3.csv", header=TRUE)
 
